@@ -1,0 +1,277 @@
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gyan Srajan Infrastructure Projects Pvt. Ltd.</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/form.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/fwslider.css" rel="stylesheet" media="all">
+
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+    <script src="jquery1.min.html"></script>
+    <script src="megamenu.html"></script>
+    <script>
+        $(document).ready(function () {
+            $(".megamenu").megamenu();
+        });
+    </script>
+
+    <script src="jquery-ui.min.html"></script>
+    <script src="css3-mediaqueries.html"></script>
+    <script src="fwslider.html"></script>
+    <script src="jquery.easydropdown.html"></script>
+
+</head>
+
+<style>
+.reveal{
+    opacity:0;
+    transform:translateY(40px);
+    transition:opacity .8s ease, transform .8s ease;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+    const observer = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+            if(entry.isIntersecting){
+                entry.target.classList.add("active");
+            }
+        });
+    },{
+        threshold:0.15
+    });
+
+    document.querySelectorAll(
+        "h2,h3,h4,p,ul,ol,table,img,hr"
+    ).forEach(function(el){
+        el.classList.add("reveal");
+        observer.observe(el);
+    });
+
+});
+</script>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="header-top">
+        <div class="wrap">
+
+            <div class="cssmenu">
+                <ul>
+
+                    <li class="active">
+                        <a href="#">Email : gyansriinfrastructure@gmail.com</a>
+                    </li> |
+
+                    <li>
+                        <a href="#">Phone : +91-7834897991</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+    </div>
+
+    <!-- Header -->
+
+    <div class="header-bottom">
+
+        <div class="wrap">
+
+            <div class="header-bottom-left">
+
+                <div class="logo">
+
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Gyan Srajan">
+                    </a>
+
+                </div>
+
+                <div class="menu">
+
+                    <ul class="megamenu skyblue">
+
+                        <li class="active grid">
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li class="grid">
+                            <a href="about-us.html">About Us</a>
+                        </li>
+
+                        <li class="grid">
+                            <a href="services.html">Services</a>
+                        </li>
+
+                        <li class="grid">
+                            <a href="projects.html">Projects</a>
+                        </li>
+
+                        <li class="grid">
+                            <a href="management.html">Management</a>
+                        </li>
+                        <li class="grid">
+    <a href="career.html">Career</a>
+</li>
+
+                        <li class="grid">
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+
+                        <li class="grid">
+                            <a href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+    <!-- Banner -->
+
+    <div style="width:100%">
+        <img src="images/banner4.jpg" alt="Gyan Srajan Infrastructure">
+    </div>
+
+    <!-- Content -->
+<div class="login">
+<div class="wrap">
+<div class="section group">
+<div class="cont span_2_of_about">
+<h3>Welcome to Gyan Srajan Infrastructure Projects Pvt. Ltd.</h3>
+<p>Established in 2023, Gyan Srajan Infrastructure Projects Pvt. Ltd. is a growing infrastructure and construction company delivering structural engineering, infrastructure development, retrofitting, rainwater harvesting systems and turnkey construction solutions across India.</p>
+<p>Backed by experienced leadership and modern engineering practices, we focus on quality, safety, timely delivery and client satisfaction.</p>
+<p><a href="about-us.html">Read More >></a></p>
+
+<hr>
+
+<h3>Career</h3>
+
+<p>
+At Gyan Srajan Infrastructure Projects Pvt. Ltd., we are always looking for passionate engineers, project managers, site supervisors and skilled professionals to join our growing team.
+</p>
+
+<p>
+Whether you are an experienced professional or a recent graduate, we welcome talented individuals who are committed to quality, innovation and excellence.
+</p>
+
+<p>
+<a href="career.html">
+Current Openings >>
+</a>
+</p>
+<hr>
+<h3>Our Services</h3>
+<ul>
+<li>Structural Engineering Consultancy</li>
+<li>Infrastructure Development</li>
+<li>Retrofitting & Rehabilitation</li>
+<li>Rainwater Harvesting Systems</li>
+<li>Construction & Turnkey Projects</li>
+<li>Project Management Consultancy</li>
+</ul>
+<p><a href="services.html">View All Services >></a></p>
+<hr>
+<h3>Featured Projects</h3>
+<ul>
+<li>Satya Bharti School Retrofitting – Jodhpur</li>
+<li>Satya Bharti School Retrofitting – Shahjahanpur</li>
+<li>Rainwater Harvesting – Khareta</li>
+<li>Rainwater Harvesting – Sikandapur Mahmood</li>
+</ul>
+<p><a href="projects.html">View All Projects >></a></p>
+<hr>
+<h3>Why Choose Us?</h3>
+<ul>
+<li>35+ Years of Combined Experience</li>
+<li>Quality Assurance</li>
+<li>Timely Delivery</li>
+<li>Experienced Leadership</li>
+<li>Client-Centric Approach</li>
+<li>Sustainable Engineering Solutions</li>
+</ul>
+<hr>
+<h3>Career</h3>
+<p>We welcome engineers, supervisors and professionals to join our growing team.</p>
+<p><a href="career.html">View Current Openings >></a></p>
+<hr>
+<h3>Contact Us</h3>
+<p><strong>Address:</strong> 860, B1 Pocket, Loknayak Puram, Bakkarwala, New Delhi – 110041</p>
+<p><strong>Phone:</strong> +91-8920794306<br><strong>Email:</strong> gyansriinfrastructure@gmail.com</p>
+<p><a href="contact.html">Contact Us >></a></p>
+</div></div></div></div>
+
+<!-- Footer -->
+
+    <div class="footer">
+
+        <div class="footer-bottom">
+
+            <div class="wrap">
+
+                <div class="copy">
+
+                    <p>
+
+                        © 2026 Gyan Srajan Infrastructure Projects Pvt. Ltd.
+                        All Rights Reserved.
+
+                    </p>
+
+                </div>
+
+                <div class="f-list2">
+
+                    <ul>
+
+                        <li><a href="index.html">Home</a></li> |
+
+                        <li><a href="about-us.html">About Us</a></li> |
+
+                        <li><a href="projects.html">Projects</a></li> |
+
+                        <li><a href="contact.html">Contact</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+```
